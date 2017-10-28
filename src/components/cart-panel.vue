@@ -58,7 +58,7 @@
         return this.$store.getters.totalPrice
       },
       cartShow () {
-        return this.$store.state.cartShow
+        return this.$store.getters.stockCount
       }
     },
     methods: {

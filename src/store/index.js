@@ -35,6 +35,7 @@ const store = new Vuex.Store({
           state.maxStock = true
         }
       })
+      return state.maxStock
     }
   },
   mutations: {
